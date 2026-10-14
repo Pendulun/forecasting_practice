@@ -1,0 +1,20 @@
+[project]
+name = "forecasting-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daniel Campos", email = "danielcampos14@hotmail.com.br" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+forecasting-practice = "forecasting_practice:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
